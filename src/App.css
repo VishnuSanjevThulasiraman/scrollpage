@@ -35,3 +35,21 @@
 .min-padding {
   padding: 30px;
 }
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -18px;
+  position: fixed;
+  height: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(251,226,76);
+  background-color: rgb(251,226,76);
+  color: rgb(58,58,58);
+  border-top: 0cm;
+  border-left: 0cm;
+  border-right: 0cm;
+  width: 100%;
+}
