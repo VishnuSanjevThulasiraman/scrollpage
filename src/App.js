@@ -1,63 +1,32 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Scoll from './Scroll';
-import Blog from './blog';
 import NavigationBar from './components/Navigation';
+import Listblogs from './components/Listblogs';
+import Container from 'react-bootstrap/Container';
+import Footer from './components/Footer';
+import NameForm from './components/Form';
 
-export default class App extends Component {
+function App() {
 
-  render() {
+  
     return (
-      <div className="App">
+      
+        <div>
         <Scoll />
         <NavigationBar />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-        <Blog />
-      </div>
-
+        
+        <Container><Listblogs /></Container>
+        <NameForm />
+        <Footer />
+        
+        
+        </div>
+      
+     
+      
     );
-  }
+  
 }
+
+export default App;
