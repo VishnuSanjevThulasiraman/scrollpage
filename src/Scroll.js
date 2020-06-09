@@ -44,8 +44,6 @@ class Scoll extends React.Component {
             </div>
         );
     }
-
-
 }
 
 function Navyellow(props) {
