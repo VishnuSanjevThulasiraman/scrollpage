@@ -21,7 +21,7 @@ class Scoll extends React.Component {
         const docHeight = this.getDocHeight();
 
         const totalDocScrollLength = docHeight - windowHeight;
-        const scrollPosition = Math.floor(scrollTop / totalDocScrollLength * 100)
+        const scrollPosition = scrollTop / totalDocScrollLength * 100 ;
 
         this.setState({
             scrollPosition,
