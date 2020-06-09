@@ -1,5 +1,5 @@
-A static webpage created using React JS and Bootstrap 
-developed by T Sanjev Vishnu.
+A static webpage created using React JS and Bootstrap. <br />
+Developed by <b>T Sanjev Vishnu</b>
 
 ## Features
 
@@ -19,7 +19,7 @@ In the project directory, you can run:
 
 ### Instructions to run
 
-Ensure that you have react-bootstrap installed. If not run this command on your terminal
+Ensure that you have react-bootstrap installed. If not run this command on your terminal <br />
 `npm install react-bootstrap bootstrap`
 
 ### `npm start`
